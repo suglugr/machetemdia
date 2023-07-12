@@ -2,6 +2,7 @@
  * Solarized Light theme for reveal.js.
  * Author: Achim Staebler
  */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url(./fonts/league-gothic/league-gothic.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 /**
@@ -17,7 +18,7 @@ html * {
  *********************************************/
 :root {
   --r-background-color: #fdf6e3;
-  --r-main-font: Lato, sans-serif;
+  --r-main-font: arial, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #657b83;
   --r-block-margin: 20px;
@@ -39,7 +40,7 @@ html * {
   --r-link-color-dark: #1a6091;
   --r-link-color-hover: #78b9e6;
   --r-selection-background-color: #d33682;
-  --r-selection-color: #fff;
+  --r-selection-color: #181717;
 }
 
 .reveal-viewport {

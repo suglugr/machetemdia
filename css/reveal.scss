@@ -653,6 +653,7 @@ $controlsArrowAngleActive: 36deg;
 
 .reveal .slides>section {
 	perspective: 600px;
+	min-height: 90%;
 }
 
 .reveal .slides>section,
@@ -662,6 +663,8 @@ $controlsArrowAngleActive: 36deg;
 	width: 100%;
 	pointer-events: auto;
 
+
+	min-height: 100%;
 	z-index: 10;
 	transform-style: flat;
 	transition: transform-origin 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985),
@@ -1864,6 +1867,7 @@ $notesWidthPercent: 25%;
  * PRINT STYLES
  *********************************************/
 
+@import 'mobilefullscreen';
 @import 'print/pdf.scss';
 @import 'print/paper.scss';
 

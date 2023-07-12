@@ -3,6 +3,7 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 .reveal a {
@@ -40,7 +41,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-link-color-dark: #264c66;
   --r-link-color-hover: #74a7cb;
   --r-selection-background-color: #134674;
-  --r-selection-color: #fff;
+  --r-selection-color: #181717;
 }
 
 .reveal-viewport {
